@@ -49,7 +49,7 @@ for base_dir in base_dirs:
     elif status is False:
         print(f"[ERROR] Did not converge in {log_path}. Trying to rerun minimization...")
         
-        for i in range(1, 250):
+        for i in range(1, 5):
             tpr_file = f"EM_{i}.tpr"
             log_file = f"EM_{i}.log"
             print(f"[INFO] Attempt {i}: Running minimization for {tpr_file}...")
