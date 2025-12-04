@@ -2,7 +2,7 @@ import os
 import subprocess
 
 base_dirs = [
-    './L-ASNase',
+    './L-ASNase'
 ]
 
 def check_log(log_path):
